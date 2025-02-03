@@ -22,7 +22,7 @@ Instructors can automatically update the repository using [gitautopush](https://
 To work with the solution instructors need to have the following setup ready:
 - Python and pip installed
 - Git installed
-- GitHub account added to the repository as a Contributor 
+- GitHub account added to the repository as a Contributor
 
 ### Steps
 - `pip install gitautopush`

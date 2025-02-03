@@ -43,7 +43,7 @@ To work with the solution instructors need to have the following setup ready:
 - ValueError: A `git status` command didn't work, are you sure this is a git repository?
     - It might occur when there are already some changes to be staged once you launch `gitautopush`. First, run `gitautopush`, then start creating files or making changes to the existing ones. 
     - Another thing to try is to first commit and push one file manually to the repository, once you have done that and no changes are staged run `gitautopush`
-
+- If you have set up all your commits to be signed (verified)
 
 
 This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).

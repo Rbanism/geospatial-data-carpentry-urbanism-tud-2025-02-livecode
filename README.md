@@ -22,7 +22,7 @@ Instructors can automatically update the repository using [gitautopush](https://
 To work with the solution instructors need to have the following setup ready:
 - Python and pip installed
 - Git installed
-- GitHub account added to the repository as a Contributor 
+- GitHub account added to the repository as a Contributor
 
 ### Steps
 - `pip install gitautopush`
@@ -43,6 +43,18 @@ To work with the solution instructors need to have the following setup ready:
 - ValueError: A `git status` command didn't work, are you sure this is a git repository?
     - It might occur when there are already some changes to be staged once you launch `gitautopush`. First, run `gitautopush`, then start creating files or making changes to the existing ones. 
     - Another thing to try is to first commit and push one file manually to the repository, once you have done that and no changes are staged run `gitautopush`
+- If you have set up all your git commits to be signed (verified) on GitHub, you will need to disable this feature for the live notes repository. You can do it iby running the following command in the repository root:
+
+```
+git config --local commit.gpgsign false
+```
+
+If you want to check if the commit signing is disabled, run (the returned value should be `false`):
+
+```
+git config --get commit.gpgsign
+
+```
 
 
 

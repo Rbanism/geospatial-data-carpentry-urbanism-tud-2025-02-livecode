@@ -56,4 +56,4 @@ str(mixed_vector2)
 with_na <- c( 1, 4, NA, 6, 5, NA)
 with_na
 
-mean()
+mean(with_na)

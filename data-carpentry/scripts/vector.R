@@ -3,4 +3,4 @@ library(tidyverse)
 
 delft_boundary <- st_read(here("data", "delft-boundary.shp"))
 
-st_geometry_type()
+st_geometry_type(delft_boundary)

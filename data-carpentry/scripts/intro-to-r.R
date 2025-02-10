@@ -84,3 +84,4 @@ nordic_factor <- factor( nordic_factor,
 numbers <- c("1", "2", "3")
 str(numbers)
 numbers <- as.numeric(numbers)
+str(numbers)

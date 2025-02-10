@@ -30,4 +30,4 @@ download.file("https://bit.ly/geospatial_data",
 numeric_vector <- c(1, 3, 5, 8)
 numeric_vector
 
-character_vector <- c("Delft", "")
+character_vector <- c("Delft", "Amsterdam", "The Hague")

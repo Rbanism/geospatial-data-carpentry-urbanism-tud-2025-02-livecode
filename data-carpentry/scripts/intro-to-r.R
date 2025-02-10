@@ -106,4 +106,4 @@ gapminder$country <- factor(gapminder$country)
 
 summary(gapminder)
 
-
+nrow

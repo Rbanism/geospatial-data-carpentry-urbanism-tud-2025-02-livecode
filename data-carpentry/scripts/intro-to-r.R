@@ -77,3 +77,5 @@ nordic_factor
 levels(nordic_factor)
 
 summary(nordic_factor)
+
+

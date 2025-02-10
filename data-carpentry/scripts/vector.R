@@ -22,4 +22,3 @@ ggplot(data = delft_boundary) +
   coord_sf(datum = st_crs(28992))
 
 
-

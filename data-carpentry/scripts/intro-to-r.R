@@ -47,4 +47,4 @@ logical_vector <- c(TRUE, TRUE, FALSE, T, F)
 logical_vector
 str(logical_vector)
 
-mi
+mixed_vector2 <- c()

@@ -47,4 +47,4 @@ lines_Delft$highway <- factor(lines_Delft$highway)
 
 str(lines_Delft)
 
-cycle
+cycleway_Delft <- lines_Delft

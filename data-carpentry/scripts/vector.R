@@ -9,5 +9,5 @@ st_crs(delft_boundary)
 st_crs(delft_boundary)$epsg
 st_crs(delft_boundary)$Name
 
-delst_transform(delft_boundary, crs = 28992)
+delft_boundary <- st_transform(delft_boundary, crs = 28992)
 

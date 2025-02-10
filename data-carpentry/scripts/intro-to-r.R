@@ -59,3 +59,4 @@ with_na
 mean(with_na)
 mean( with_na, na.rm = TRUE)
 
+is.na()

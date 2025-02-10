@@ -180,3 +180,6 @@ ggplot() +
   coord_sf(datum = st_crs(28992))
 
 boundary_Delft <- st_read(here("data", "delft-boundary.shp"))
+
+ggplot() +
+  geom_sf(data_)

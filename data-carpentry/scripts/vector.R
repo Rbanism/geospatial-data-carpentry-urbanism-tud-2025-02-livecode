@@ -209,7 +209,8 @@ ggplot() +
           aes(shape = "shape"), 
           color = "purple",
           fill = "purple") +
-  scale_shape_manual(name = "", labels = "Municipality of Delft", 
+  scale_shape_manual(name = "",
+                     labels = "Municipality of Delft", 
                      values = c("shape" = 19)) +
   labs(title = "Delft location") +
   theme(legend.background = element_rect(color = NA)) +

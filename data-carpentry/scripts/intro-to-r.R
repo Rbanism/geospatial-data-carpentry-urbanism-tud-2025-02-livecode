@@ -23,4 +23,4 @@ x <- y
 # Download data 
 
 download.file("https://bit_ly.geospatial_data", 
-              here("data", "")
+              here("data", "gapminder_data.csv")

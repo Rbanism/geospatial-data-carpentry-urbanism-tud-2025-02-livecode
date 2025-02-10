@@ -28,4 +28,4 @@ download.file("https://bit.ly/geospatial_data",
 #Vectors 
 
 numeric_vector <- c(1, 3, 5, 8)
-n
+numeric_vector

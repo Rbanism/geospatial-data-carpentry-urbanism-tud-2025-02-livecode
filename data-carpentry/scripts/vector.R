@@ -106,7 +106,8 @@ ggplot(data = lines_Delft_selection) +
 
 ggplot() +
   geom_sf(data = boundary_Delft,
-          fill = "lightgrey")
+          fill = "lightgrey",
+          color = "lightgrey")
   
 
 

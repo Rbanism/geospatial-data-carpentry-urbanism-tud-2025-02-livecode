@@ -72,7 +72,7 @@ ggplot(data = cycleway_Delft) +
 motorway_Delft <- lines_Delft %>% 
   filter(highway == "motorway")
 
-motorway_Delft %>% 
+motorway_Delft_summary <- motorway_Delft %>% 
   mutate(length = st_length(.)) %>% 
   # select(everything(), geometry) %>%
   summarise(total_length = sum(length))

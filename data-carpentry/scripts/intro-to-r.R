@@ -99,3 +99,5 @@ head(gapminder, 10)
 summary(gapminder)
 
 gapminder$country
+
+head(gapminder$)

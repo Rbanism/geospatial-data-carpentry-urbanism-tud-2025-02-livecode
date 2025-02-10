@@ -108,4 +108,4 @@ summary(gapminder)
 
 nrow(gapminder)
 
-ncol
+ncol(gapminder)

@@ -31,3 +31,4 @@ numeric_vector <- c(1, 3, 5, 8)
 numeric_vector
 
 character_vector <- c("Delft", "Amsterdam", "The Hague")
+character_vector

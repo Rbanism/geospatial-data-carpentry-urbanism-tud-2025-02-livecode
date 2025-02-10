@@ -2,9 +2,10 @@
 library(sf)
 library(tidyverse)
 
-# Read data - boundary
+# Read data - Delft boundary
 delft_boundary <- st_read(here("data", "delft-boundary.shp"))
 
+# Examining the data
 st_geometry_type(delft_boundary)
 
 st_crs(delft_boundary)

@@ -156,6 +156,7 @@ ggplot() +
   coord_sf(datum = st_crs(28992))
 
 # Challenge
+
 point_Delft_selection <- point_Delft %>%
   filter(leisure %in% c("playground", "picnic_table"))
 

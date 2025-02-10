@@ -111,7 +111,8 @@ ggplot() +
   geom_sf(data = lines_Delft_selection,
           aes(color = highway)) +
   geom_sf(data = point_Delft) +
-  labs(title = "Mobility networks of Delft")
+  labs(title = "Mobility networks of Delft") +
+  coord_
   
 
 

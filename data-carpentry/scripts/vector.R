@@ -36,3 +36,5 @@ st_bbox(point_Delft)
 lines_Delft
 
 ncol(lines_Delft)
+
+

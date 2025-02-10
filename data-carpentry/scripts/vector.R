@@ -25,7 +25,6 @@ ggplot(data = delft_boundary) +
   coord_sf(datum = st_crs(28992))
 
 # Challenge 1 - Read and examine lines and point data
-
 lines_Delft <- st_read(here("data", "delft-streets.shp"))
 point_Delft <- st_read(here("data", "delft-leisure.shp"))
 
@@ -79,11 +78,11 @@ ggplot(data = cycleway_Delft) +
 
 # Challenge 2 - repeat with motorways
 
-motorway_Delft <- lines_Delft %>% 
+motorway_Delft <- lines_Delft %>%
   filter(highway == "motorway")
 
-motorway_Delft_summary <- motorway_Delft %>% 
-  mutate(length = st_length(.)) %>% 
+motorway_Delft_summary <- motorway_Delft %>%
+  mutate(length = st_length(.)) %>%
   # select(everything(), geometry) %>%
   summarise(total_length = sum(length))
 
@@ -128,7 +127,7 @@ ggplot() +
   labs(title = "Mobility networks of Delft") +
   coord_sf(datum = st_crs(28992))
 
-point_Delft  
+point_Delft
 
 point_Delft <- point_Delft %>%
   mutate(leisure = factor(leisure))
@@ -162,15 +161,15 @@ point_Delft_selection <- point_Delft %>%
 
 blue_orange <- c("cornflowerblue", "darkorange")
 
-ggplot() + 
+ggplot() +
   geom_sf(data = lines_Delft_selection,
-          aes(color = highway)) + 
+          aes(color = highway)) +
   geom_sf(data = point_Delft_selection,
-          aes(fill = leisure, shape = leisure)) + 
+          aes(fill = leisure, shape = leisure)) +
   scale_shape_manual(name = "Leisure Type", values = c(21, 22)) +
-  scale_color_manual(name = "Road Type", values = road_colors) + 
-  scale_fill_manual(name = "Leisure Type", values = blue_orange) + 
-  labs(title = "Road network and leisure") + 
+  scale_color_manual(name = "Road Type", values = road_colors) +
+  scale_fill_manual(name = "Leisure Type", values = blue_orange) +
+  labs(title = "Road network and leisure") +
   coord_sf(datum = st_crs(28992))
 
 
@@ -215,17 +214,17 @@ boundary_ZH <- municipal_boundary_NL %>%
   filter(ligtInPr_1 == "Zuid-Holland")
 
 ggplot() +
-  geom_sf(data = boundary_ZH, 
+  geom_sf(data = boundary_ZH,
           aes(color = "color"), show.legend = "line") +
-  scale_color_manual(name = "", 
-                     labels = "Municipal Boundaries in South Holland", 
+  scale_color_manual(name = "",
+                     labels = "Municipal Boundaries in South Holland",
                      values = c("color" = "gray18")) +
   geom_sf(data = boundary_Delft,
-          aes(shape = "shape"), 
+          aes(shape = "shape"),
           color = "purple",
           fill = "purple") +
   scale_shape_manual(name = "",
-                     labels = "Municipality of Delft", 
+                     labels = "Municipality of Delft",
                      values = c("shape" = 19)) +
   labs(title = "Delft location") +
   # theme(legend.background = element_rect(color = NA)) +

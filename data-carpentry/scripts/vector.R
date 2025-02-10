@@ -193,7 +193,8 @@ st_crs(boundary_Delft)$epsg
 
 # Challenge
 
-boundary_ZH <- municipal_boundary_NL %>% filter(ligtInPr_1 == "Zuid-Holland")
+boundary_ZH <- municipal_boundary_NL %>%
+  filter(ligtInPr_1 == "Zuid-Holland")
 
 ggplot() +
   geom_sf(data = boundary_ZH, aes(color ="color"), show.legend = "line") +

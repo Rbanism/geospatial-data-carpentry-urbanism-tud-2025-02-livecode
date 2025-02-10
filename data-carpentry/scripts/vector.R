@@ -13,4 +13,4 @@ delft_boundary <- st_transform(delft_boundary, crs = 28992)
 st_crs(delft_boundary)$Name
 st_crs(delft_boundary)$epsg
 
-st_bbox()
+st_bbox(delft_boundary)

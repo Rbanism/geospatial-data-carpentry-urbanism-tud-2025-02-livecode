@@ -126,4 +126,5 @@ leisure_colors <- rainbow(15)
 leisure_colors
 
 ggplot() +
-  geom_sf()
+  geom_sf(data = delft_boundary,
+          fill = "lightgrey")

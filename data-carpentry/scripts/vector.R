@@ -217,7 +217,8 @@ ggplot() +
   coord_sf(datum = st_crs(28992))
 
 st_write(point_Delft_selection,
-         here("data_output", "leisure_location_selection.shp"))
+         here("data_output", "leisure_location_selection.shp"),
+         over)
 
 
 

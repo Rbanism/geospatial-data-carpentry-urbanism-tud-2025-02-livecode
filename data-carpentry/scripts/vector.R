@@ -217,8 +217,7 @@ ggplot() +
   coord_sf(datum = st_crs(28992))
 
 st_write(point_Delft_selection,
-         here("data_output", "leisure_location_selection.shp"),
-         driver = "ESRI Shapefile")
+         here("data_output", "leisure_location_selection.shp"))
 
 
 

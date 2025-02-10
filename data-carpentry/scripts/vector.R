@@ -48,4 +48,5 @@ lines_Delft$highway <- factor(lines_Delft$highway)
 str(lines_Delft)
 
 cycleway_Delft <- lines_Delft %>%
-  filter(highway = "cycleway")
+  filter(highway == "cycleway")
+

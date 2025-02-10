@@ -17,5 +17,5 @@ st_bbox(delft_boundary)
 st_crs(delft_boundary)$units_gdal
 
 ggplot(data = delft_boundary) +
-  geom_
+  geom_sf()
 

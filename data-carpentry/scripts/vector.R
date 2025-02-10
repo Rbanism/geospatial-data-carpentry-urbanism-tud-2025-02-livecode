@@ -142,7 +142,7 @@ ggplot() +
   coord_sf(datum = st_crs(28992))
 
 
-leisure_locations_selection <- st_read(here("episodes", "data", "delft-leisure.shp")) %>% 
+leisure_locations_selection <- leisure
   filter(leisure %in% c("playground", "picnic_table"))
 
 blue_orange <- c("cornflowerblue", "darkorange")

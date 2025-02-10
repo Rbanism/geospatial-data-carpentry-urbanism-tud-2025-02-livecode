@@ -117,4 +117,6 @@ year_country_gdp <- select(gapminder, country, year, gdpPercap)
 head(year_country_gdp)
 
 year_country_gdp <- gapminder %>%
-  select()
+  select(country, year, gdpPercap)
+
+head()

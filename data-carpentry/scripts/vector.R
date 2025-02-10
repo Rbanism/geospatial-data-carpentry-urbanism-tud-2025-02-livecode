@@ -130,4 +130,5 @@ ggplot() +
           fill = "lightgrey",
           color = "lightgrey") +
   geom_sf(data = lines_Delft_selection,
-          aes(color = highway))
+          aes(color = highway)) +
+  geom_sf(data = )

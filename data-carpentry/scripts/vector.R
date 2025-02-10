@@ -105,7 +105,8 @@ ggplot(data = lines_Delft_selection) +
   coord_sf(datum = st_crs(28992))
 
 ggplot() +
-  geom_sf(data = boundary_Delft)
+  geom_sf(data = boundary_Delft,
+          )
   
 
 

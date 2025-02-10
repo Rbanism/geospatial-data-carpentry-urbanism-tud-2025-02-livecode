@@ -81,4 +81,4 @@ summary(nordic_factor)
 nordic_factor <- factor( nordic_factor, 
                          levels = c("Sweden", "Norway", "Denmark"))
 
-
+numbers <- c("1", "2")

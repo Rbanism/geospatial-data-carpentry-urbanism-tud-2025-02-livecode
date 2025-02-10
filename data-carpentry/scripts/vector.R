@@ -218,7 +218,7 @@ ggplot() +
 
 st_write(point_Delft_selection,
          here("data_output", "leisure_location_selection.shp"),
-         over)
+         driver = "ESRI Shapefile")
 
 
 

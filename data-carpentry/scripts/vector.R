@@ -120,4 +120,4 @@ point_Delft <- point_Delft %>%
   mutate(leisure = factor(leisure))
 str(point_Delft)
 
-levels(pont_Delft)
+levels(point_Delft$leisure)

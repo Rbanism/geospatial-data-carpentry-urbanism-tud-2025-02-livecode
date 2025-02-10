@@ -115,6 +115,9 @@ ggplot(data = lines_Delft_selection) +
        color = "Road Type") +
   coord_sf(datum = st_crs(28992))
 
+
+# Plot multiple layers
+
 ggplot() +
   geom_sf(data = delft_boundary,
           fill = "lightgrey",

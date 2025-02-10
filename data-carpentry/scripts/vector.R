@@ -213,7 +213,7 @@ ggplot() +
                      labels = "Municipality of Delft", 
                      values = c("shape" = 19)) +
   labs(title = "Delft location") +
-  theme(legend.background = element_rect(color = NA)) +
+  # theme(legend.background = element_rect(color = NA)) +
   coord_sf(datum = st_crs(28992))
 
 st_write(point_Delft_selection,

@@ -101,3 +101,4 @@ summary(gapminder)
 gapminder$country
 
 head(gapminder$country)
+

@@ -96,7 +96,7 @@ ggplot(data = motorway_Delft) +
 
 st_geometry_type(motorway_Delft_summary)
 
-# Custom 
+# Custom road types
 road_types <- c("motorway", "primary", "secondary", "cycleway")
 
 lines_Delft_selection <- lines_Delft %>%

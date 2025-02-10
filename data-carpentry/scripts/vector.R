@@ -35,4 +35,4 @@ st_bbox(point_Delft)
 
 lines_Delft
 
-ncol()
+ncol(lines_Delft)

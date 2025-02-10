@@ -1,4 +1,4 @@
 library(sf)
 library(tidyverse)
 
-st_read(here("data", "delft-.shp"))
+st_read(here("data", "delft-boundary.shp"))

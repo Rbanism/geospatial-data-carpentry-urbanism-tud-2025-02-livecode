@@ -88,4 +88,5 @@ st_geometry_type(motorway_Delft_summary)
 
 road_types <- c("motorway", "primary", "secondary", "cycleway")
 
-lines_Delft_selection <- lines_Delft
+lines_Delft_selection <- lines_Delft %>%
+  

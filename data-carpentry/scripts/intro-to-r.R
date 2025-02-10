@@ -22,4 +22,4 @@ x <- y
 
 # Download data 
 
-download.file("https://bit_ly."
+download.file("https://bit_ly.geospatial_data", 

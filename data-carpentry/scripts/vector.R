@@ -121,3 +121,5 @@ point_Delft <- point_Delft %>%
 str(point_Delft)
 
 levels(point_Delft$leisure)
+
+

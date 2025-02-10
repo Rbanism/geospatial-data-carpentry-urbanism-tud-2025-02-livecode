@@ -27,3 +27,4 @@ download.file("https://bit.ly/geospatial_data",
 
 #Vectors 
 
+numeric_vector <- 

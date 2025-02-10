@@ -93,3 +93,5 @@ lines_Delft_selection <- lines_Delft %>%
   mutate(highway = factor(highway, levels = road_types))
 
 str(lines_Delft_selection)
+
+

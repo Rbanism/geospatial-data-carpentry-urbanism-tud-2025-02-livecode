@@ -97,3 +97,5 @@ head(gapminder)
 head(gapminder, 10)
 
 summary(gapminder)
+
+

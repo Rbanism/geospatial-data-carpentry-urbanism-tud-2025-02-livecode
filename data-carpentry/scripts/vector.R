@@ -171,9 +171,9 @@ ggplot() +
 country_boundary_NL <- st_read(here("data", "nl-boundary.shp"))
 
 ggplot() +
-  geom_sf(data = country_boundary_NL,
-          color = "gray18",
-          linewidth = 2) +
+  # geom_sf(data = country_boundary_NL,
+  #         color = "gray18",
+  #         linewidth = 2) +
   geom_sf(data = municipal_boundary_NL,
           color = "gray40") +
   labs(title = "Map of Contiguous NL Municipal Boundaries") +

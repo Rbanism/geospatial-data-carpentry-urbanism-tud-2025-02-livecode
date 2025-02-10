@@ -110,7 +110,7 @@ ggplot() +
           color = "lightgrey") +
   geom_sf(data = lines_Delft_selection,
           aes(color = highway)) +
-  geom_sf()
+  geom_sf(data = poin)
   
 
 

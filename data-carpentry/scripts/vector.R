@@ -137,4 +137,5 @@ ggplot() +
                      name = "Road Type") +
   scale_fill_manual(values = leisure_colors,
                     name = "Leisure Location") +
-  labs(title = "Mobility network and leisure in Delft")
+  labs(title = "Mobility network and leisure in Delft") +
+  coord_

@@ -113,3 +113,5 @@ ncol(gapminder)
 library(tidyverse)
 
 year_country_gdp <- select(gapminder, country, year, gdpPercap)
+
+head(year_)

@@ -170,7 +170,6 @@ ggplot() +
 
 
 # Handling spatial projections
-
 municipal_boundary_NL <- st_read(here("data", "nl-gemeenten.shp"))
 
 ggplot() +
@@ -202,7 +201,6 @@ st_crs(municipal_boundary_NL)$epsg
 st_crs(boundary_Delft)$epsg
 
 # Challenge
-
 str(municipal_boundary_NL)
 unique(municipal_boundary_NL$ligtInPr_1)
 

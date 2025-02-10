@@ -86,4 +86,4 @@ ggplot(data = motorway_Delft) +
 
 st_geometry_type(motorway_Delft_summary)
 
-road_
+road_types <- c("motorway", "primary")

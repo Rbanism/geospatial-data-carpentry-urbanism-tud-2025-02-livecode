@@ -177,4 +177,5 @@ ggplot() +
   geom_sf(data = municipal_boundary_NL,
           color = "gray40") +
   labs(title = "Map of Contiguous NL Municipal Boundaries") +
+  coord_sf(datum = )
 

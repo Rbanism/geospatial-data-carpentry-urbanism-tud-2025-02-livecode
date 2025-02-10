@@ -90,4 +90,4 @@ road_types <- c("motorway", "primary", "secondary", "cycleway")
 
 lines_Delft_selection <- lines_Delft %>%
   filter(highway %in% road_types) %>%
-  mutate(highway = factor(highway))
+  mutate(highway = factor(highway, levels = road_types))

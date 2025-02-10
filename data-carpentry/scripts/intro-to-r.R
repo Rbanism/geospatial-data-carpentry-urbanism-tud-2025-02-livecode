@@ -71,4 +71,5 @@ without_na
 nordic_string <- c("Denmark", "Sweden", "Norway", "Denmark")
 nordic_string
 
-nordic_factor <- factor()
+nordic_factor <- factor(nordic_string)
+nordic_factor

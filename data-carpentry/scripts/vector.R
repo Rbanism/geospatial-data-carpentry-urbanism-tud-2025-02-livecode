@@ -54,3 +54,18 @@ nrow(lines_Delft)
 nrow(cycleway_Delft)
 levels(cycleway_Delft$highway)
 unique(cycleway_Delft$highway)
+
+cycleway_Delft <- cycleway_Delft %>%
+  mutate(length = st_length(.))
+
+head(cycleway_Delft)
+
+cycleway_Delft %>%
+  summarise(total_length = sum(length))
+
+ggplot(data = cycleway_Delft) +
+  geom_sf() +
+  labs(title = "Slow mobility network in Delft",
+       subtitle = "Cycleways") +
+  coord_sf(datum = st_crs(28992))
+

@@ -122,4 +122,4 @@ str(point_Delft)
 
 levels(point_Delft$leisure)
 
-
+rainbow

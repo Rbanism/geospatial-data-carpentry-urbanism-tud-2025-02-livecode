@@ -125,4 +125,5 @@ levels(point_Delft$leisure)
 leisure_colors <- rainbow(15)
 leisure_colors
 
-
+ggplot() +
+  geom_sf()

@@ -163,5 +163,6 @@ ggplot() +
 
 municipal_boundary_NL <- st_read(here("data", "nl-gemeenten.shp"))
 
-
+ggplot() +
+  geom_
 

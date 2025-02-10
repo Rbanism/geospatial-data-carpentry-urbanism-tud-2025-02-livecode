@@ -76,3 +76,4 @@ nordic_factor
 
 levels(nordic_factor)
 
+s

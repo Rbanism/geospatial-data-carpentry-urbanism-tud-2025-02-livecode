@@ -101,6 +101,6 @@ ggplot(data = lines_Delft_selection) +
   scale_color_manual(values = road_colors) +
   labs(title = "Mobility network in Delft",
        subtitle = "Main roads & cicyleways",
-       )
+       color = "")
 
 

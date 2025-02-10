@@ -45,4 +45,4 @@ unique(lines_Delft$highway)
 
 lines_Delft$highway <- factor(lines_Delft$highway)
 
-lines_Delft
+str(lines_Delft)

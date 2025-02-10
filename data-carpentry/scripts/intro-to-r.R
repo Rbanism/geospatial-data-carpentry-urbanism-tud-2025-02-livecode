@@ -41,4 +41,4 @@ str(character_vector)
 
 mixed_vector <- c(numeric_vector, character_vector)
 mixed_vector
-
+str(mixed_vector)

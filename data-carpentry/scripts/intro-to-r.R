@@ -110,4 +110,4 @@ nrow(gapminder)
 
 ncol(gapminder)
 
-year_country_gdp <- 
+year_country_gdp <- select()

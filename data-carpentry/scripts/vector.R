@@ -133,7 +133,7 @@ ggplot() +
           aes(color = highway)) +
   geom_sf(data = point_Delft,
           aes(fill = leisure),
-          shape = ) +
+          shape = 21) +
   scale_color_manual(values = road_colors,
                      name = "Road Type") +
   scale_fill_manual(values = leisure_colors,

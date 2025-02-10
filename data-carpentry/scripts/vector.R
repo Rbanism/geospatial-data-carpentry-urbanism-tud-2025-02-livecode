@@ -46,3 +46,5 @@ unique(lines_Delft$highway)
 lines_Delft$highway <- factor(lines_Delft$highway)
 
 str(lines_Delft)
+
+cycle

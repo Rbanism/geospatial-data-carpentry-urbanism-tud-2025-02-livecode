@@ -69,3 +69,17 @@ ggplot(data = cycleway_Delft) +
        subtitle = "Cycleways") +
   coord_sf(datum = st_crs(28992))
 
+motorway_Delft <- lines_Delft %>% 
+  filter(highway == "motorway")
+
+motorway_Delft %>% 
+  mutate(length = st_length(.)) %>% 
+  select(everything(), geometry) %>%
+  summarise(total_length = sum(length))
+
+nrow(motorway_Delft)
+
+ggplot(data = motorway_Delft) +
+  geom_sf(size = 1.5) +
+  ggtitle("Mobility network of Delft", subtitle = "Motorways") +
+  coord_sf()

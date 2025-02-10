@@ -118,4 +118,4 @@ point_Delft
 
 point_Delft <- point_Delft %>%
   mutate(leisure = factor(leisure))
-str()
+str(point_Delft)

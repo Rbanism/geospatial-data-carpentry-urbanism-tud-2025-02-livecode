@@ -88,4 +88,4 @@ str(numbers)
 
 
 
-gapminder <- read.csv
+gapminder <- read.csv(da)

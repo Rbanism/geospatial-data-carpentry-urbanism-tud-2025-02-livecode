@@ -121,3 +121,73 @@ year_country_gdp <- gapminder %>%
 
 head(year_country_gdp)
 
+head(select(gapminder, country, year, gdpPercap))
+
+
+
+european_countries <- gapminder %>%
+  filter(continent == "Europe" & year > 2000)
+
+head(european_countries)
+
+european_countries_selection <- gapminder %>%
+  filter(continent == "Europe" & year > 2000) %>%
+  select(year, country, gdpPercap)
+
+head(european_countries_selection)
+
+solution_challenge_1 <- gapminder %>%
+  filter(continent == "Europe" | continent == "Asia") %>%
+  select(lifeExp, country, year)
+
+nrow(solution_challenge_1)
+
+solution_challenge_1 <- gapminder %>%
+  filter(continent == "Europe" & continent == "Asia")
+
+nrow(solution_challenge_1)
+
+gapminder %>%
+  group_by(continent, year) %>%
+  summarize(avg_gdp_per_cap = mean(gdpPercap))
+
+gapminder %>%
+  group_by(country) %>%
+  count()
+
+# Create a histogram
+ggplot(data = gapminder,
+        aes(x = lifeExp)) +
+  geom_histogram()
+
+p <- gapminder %>%
+  filter(year == 2007 & continent == "Americas") %>%
+  mutate(country = fct_reorder(country, gdpPercap)) %>% # Re-order factor levels
+  ggplot(aes(x = country, y = gdpPercap, fill = lifeExp)) +
+  geom_col() +
+  coord_flip() +
+  scale_fill_viridis_c()
+
+data_americas_2007 <- gapminder %>%
+  filter(year == 2007 & continent == "Americas") %>%
+  mutate(country = fct_reorder(country, gdpPercap))
+
+write.csv(data_americas_2007,
+          here("data_output", "gapminder_data_americas_2007.csv"),
+          row.names = FALSE)
+
+
+
+
+
+ggsave(p, filename = here("fig_output", "plot_americas.png"))
+
+
+
+
+
+
+
+gapminder <- read.csv("data/gapminder_data.csv")
+
+head(gapminder)

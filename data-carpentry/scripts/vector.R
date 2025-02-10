@@ -1,5 +1,5 @@
 library(sf)
 library(tidyverse)
 
-st_read(here("data", "delft-boundary.shp"))
+delft_boundary <- st_read(here("data", "delft-boundary.shp"))
 

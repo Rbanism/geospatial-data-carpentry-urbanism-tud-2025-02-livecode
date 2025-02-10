@@ -183,4 +183,5 @@ boundary_Delft <- st_read(here("data", "delft-boundary.shp"))
 
 ggplot() +
   geom_sf(data = municipal_boundary_NL,
-          color = "")
+          color = "gray40") +
+  coord

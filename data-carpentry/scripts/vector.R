@@ -43,4 +43,4 @@ head(lines_Delft$highway, 10)
 
 unique(lines_Delft$highway)
 
-lines_Delft
+lines_Delft$highway <- factor

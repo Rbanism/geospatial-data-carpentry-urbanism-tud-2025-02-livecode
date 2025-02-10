@@ -134,4 +134,5 @@ ggplot() +
   geom_sf(data = point_Delft,
           aes(fill = leisure)) +
   scale_color_manual(values = road_colors,
-                     name = "Road Type")
+                     name = "Road Type") +
+  scale_

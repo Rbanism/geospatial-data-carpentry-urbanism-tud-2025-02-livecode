@@ -127,4 +127,6 @@ leisure_colors
 
 ggplot() +
   geom_sf(data = delft_boundary,
-          fill = "lightgrey")
+          fill = "lightgrey",
+          color = "lightgrey") +
+  

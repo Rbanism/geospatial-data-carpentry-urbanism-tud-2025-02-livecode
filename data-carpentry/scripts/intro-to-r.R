@@ -110,3 +110,4 @@ nrow(gapminder)
 
 ncol(gapminder)
 
+year

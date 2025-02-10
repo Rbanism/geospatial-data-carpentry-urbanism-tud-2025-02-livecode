@@ -126,13 +126,13 @@ leisure_colors <- rainbow(15)
 leisure_colors
 
 ggplot() +
+  geom_sf(data = delft_boundary,
+          fill = "lightgrey",
+          color = "lightgrey") +
   scale_color_manual(values = road_colors,
                      name = "Road Type") +
   scale_fill_manual(values = leisure_colors,
                     name = "Leisure Location") +
-  geom_sf(data = delft_boundary,
-          fill = "lightgrey",
-          color = "lightgrey") +
   geom_sf(data = lines_Delft_selection,
           aes(color = highway)) +
   geom_sf(data = point_Delft,

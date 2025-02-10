@@ -231,7 +231,7 @@ ggplot() +
   # theme(legend.background = element_rect(color = NA)) +
   coord_sf(datum = st_crs(28992))
 
-
+# Write vector data to file
 st_write(point_Delft_selection,
          here("data_output", "leisure_location_selection.shp"),
          driver = "ESRI Shapefile")

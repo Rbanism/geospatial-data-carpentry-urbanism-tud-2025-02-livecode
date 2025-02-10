@@ -173,5 +173,6 @@ country_boundary_NL <- st_read(here("data", "nl-boundary.shp"))
 ggplot() +
   geom_sf(data = country_boundary_NL,
           color = "gray18",
-          linewidth = )
+          linewidth = 2) +
+  geom_sf()
 

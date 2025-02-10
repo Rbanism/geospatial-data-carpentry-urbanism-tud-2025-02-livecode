@@ -74,3 +74,4 @@ nordic_string
 nordic_factor <- factor(nordic_string)
 nordic_factor
 
+levels

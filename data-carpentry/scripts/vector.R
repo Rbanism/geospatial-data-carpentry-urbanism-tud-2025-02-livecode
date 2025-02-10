@@ -143,7 +143,7 @@ ggplot() +
 
 # Challenge
 
-point_Delft_selection <- leisure_locations_selection %>%
+point_Delft_selection <- point_Delft %>%
   filter(leisure %in% c("playground", "picnic_table"))
 
 blue_orange <- c("cornflowerblue", "darkorange")

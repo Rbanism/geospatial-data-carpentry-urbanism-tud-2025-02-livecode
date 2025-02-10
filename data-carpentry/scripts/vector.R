@@ -77,6 +77,8 @@ ggplot(data = cycleway_Delft) +
        subtitle = "Cycleways") +
   coord_sf(datum = st_crs(28992))
 
+# Challenge 2 - repeat with motorways
+
 motorway_Delft <- lines_Delft %>% 
   filter(highway == "motorway")
 

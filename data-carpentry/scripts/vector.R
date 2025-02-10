@@ -1,4 +1,4 @@
 library(sf)
 library(tidyverse)
 
-st_read()
+st_read(here())

@@ -151,7 +151,7 @@ blue_orange <- c("cornflowerblue", "darkorange")
 ggplot() + 
   geom_sf(data = lines_Delft_selection,
           aes(color = highway)) + 
-  geom_sf(data = leisure_locations_selection,
+  geom_sf(data = point_Delft_selection,
           aes(fill = leisure, shape = leisure)) + 
   scale_shape_manual(name = "Leisure Type", values = c(21, 22)) +
   scale_color_manual(name = "Road Type", values = road_colors) + 

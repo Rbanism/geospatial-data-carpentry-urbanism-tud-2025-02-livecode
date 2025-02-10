@@ -104,7 +104,7 @@ ggplot(data = lines_Delft_selection) +
        color = "Road Type") +
   coord_sf(datum = st_crs(28992))
 
-ggplot() +
+ggplot(data = boundary_Delft) +
   geom_sf()
   
 

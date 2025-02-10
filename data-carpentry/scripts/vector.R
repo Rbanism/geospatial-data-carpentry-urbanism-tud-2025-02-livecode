@@ -141,8 +141,9 @@ ggplot() +
   labs(title = "Mobility network and leisure in Delft") +
   coord_sf(datum = st_crs(28992))
 
+Chalelnge
 
-leisure_locations_selection <- leisure
+leisure_locations_selection <- leisure_locations_selection 
   filter(leisure %in% c("playground", "picnic_table"))
 
 blue_orange <- c("cornflowerblue", "darkorange")

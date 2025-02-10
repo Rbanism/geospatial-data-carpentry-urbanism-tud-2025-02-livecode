@@ -122,4 +122,5 @@ str(point_Delft)
 
 levels(point_Delft$leisure)
 
-lrainbow(15)
+leisure_colors <- rainbow(15)
+leisure_colors

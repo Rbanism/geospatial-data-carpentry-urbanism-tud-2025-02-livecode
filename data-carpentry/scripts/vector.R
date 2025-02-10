@@ -41,4 +41,4 @@ head(lines_Delft)
 
 head(lines_Delft$highway, 10)
 
-unique(lines)
+unique(lines_Delft$highway)

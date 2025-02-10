@@ -205,8 +205,10 @@ ggplot() +
   scale_color_manual(name = "", 
                      labels = "Municipal Boundaries in South Holland", 
                      values = c("color" = "gray18")) +
-  geom_sf(data = boundary_Delft, aes(shape = "shape"), 
-          color = "purple", fill = "purple") +
+  geom_sf(data = boundary_Delft,
+          aes(shape = "shape"), 
+          color = "purple",
+          fill = "purple") +
   scale_shape_manual(name = "", labels = "Municipality of Delft", 
                      values = c("shape" = 19)) +
   labs(title = "Delft location") +

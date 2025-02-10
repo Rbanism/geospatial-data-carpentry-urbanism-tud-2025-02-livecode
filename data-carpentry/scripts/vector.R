@@ -108,7 +108,8 @@ ggplot() +
   geom_sf(data = boundary_Delft,
           fill = "lightgrey",
           color = "lightgrey") +
-  geom_sf(data = )
+  geom_sf(data = lines_Delft_selection,
+          )
   
 
 

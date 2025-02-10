@@ -93,3 +93,5 @@ gapminder <- read.csv("data/gapminder_data.csv")
 str(gapminder)
 
 head(gapminder)
+
+head(gapminder)

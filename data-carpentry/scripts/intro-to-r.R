@@ -68,3 +68,4 @@ without_na
 
 # Factors 
 
+nordic_string <- 

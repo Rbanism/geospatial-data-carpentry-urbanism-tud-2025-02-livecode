@@ -97,6 +97,7 @@ str(lines_Delft_selection)
 road_colors <- c("blue", "green", "navy", "purple")
 
 ggplot(data = lines_Delft_selection) +
-  geom_sf(aes(color = highway))
+  geom_sf(aes(color = highway)) +
+  
 
 

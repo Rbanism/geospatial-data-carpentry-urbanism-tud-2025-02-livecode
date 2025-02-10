@@ -165,5 +165,6 @@ municipal_boundary_NL <- st_read(here("data", "nl-gemeenten.shp"))
 
 ggplot() +
   geom_sf(data = municipal_boundary_NL) +
-  labs(title = "")
+  labs(title = "Map of Contiguous NL Municipal Boundaries") +
+  coord_sf()
 

@@ -24,7 +24,8 @@ ggplot(data = delft_boundary) +
   labs(title = "Delft Administrative Boundary") +
   coord_sf(datum = st_crs(28992))
 
-Challenge 1
+# Challenge 1 - Read 
+
 lines_Delft <- st_read(here("data", "delft-streets.shp"))
 point_Delft <- st_read(here("data", "delft-leisure.shp"))
 

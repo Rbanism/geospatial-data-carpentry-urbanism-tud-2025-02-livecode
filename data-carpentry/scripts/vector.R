@@ -96,7 +96,7 @@ ggplot(data = motorway_Delft) +
 
 st_geometry_type(motorway_Delft_summary)
 
-# Custom road types
+# Subset road types and plot them with custom colors
 road_types <- c("motorway", "primary", "secondary", "cycleway")
 
 lines_Delft_selection <- lines_Delft %>%

@@ -62,7 +62,7 @@ nrow(cycleway_Delft)
 levels(cycleway_Delft$highway)
 unique(cycleway_Delft$highway)
 
-
+# Calculate total length of cycleways in Delft
 cycleway_Delft <- cycleway_Delft %>%
   mutate(length = st_length(.))
 

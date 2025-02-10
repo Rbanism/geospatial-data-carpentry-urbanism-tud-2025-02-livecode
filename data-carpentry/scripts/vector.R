@@ -85,3 +85,5 @@ ggplot(data = motorway_Delft) +
   coord_sf(datum = st_crs(28992))
 
 st_geometry_type(motorway_Delft_summary)
+
+

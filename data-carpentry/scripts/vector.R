@@ -161,7 +161,7 @@ ggplot() +
 
 # Handling spatial projections
 
-municipal_boundary_NL <- st_read(here("data", ""))
+municipal_boundary_NL <- st_read(here("data", "nl-gemeenten.shp"))
 
 
 

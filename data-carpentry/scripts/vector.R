@@ -193,6 +193,8 @@ st_crs(boundary_Delft)$epsg
 
 # Challenge
 
+
+
 boundary_ZH <- municipal_boundary_NL %>%
   filter(ligtInPr_1 == "Zuid-Holland")
 

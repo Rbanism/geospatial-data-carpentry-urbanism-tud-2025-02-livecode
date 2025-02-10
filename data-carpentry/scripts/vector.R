@@ -168,3 +168,5 @@ ggplot() +
   labs(title = "Map of Contiguous NL Municipal Boundaries") +
   coord_sf(datum = st_crs(28992))
 
+
+

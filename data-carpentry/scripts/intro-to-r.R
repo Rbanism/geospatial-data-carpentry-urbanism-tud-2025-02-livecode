@@ -110,4 +110,4 @@ nrow(gapminder)
 
 ncol(gapminder)
 
-year
+year_country_gdp <- 

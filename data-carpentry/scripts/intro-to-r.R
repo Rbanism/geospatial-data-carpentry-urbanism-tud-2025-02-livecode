@@ -102,4 +102,4 @@ gapminder$country
 
 head(gapminder$country)
 
-gapminder$country <-
+gapminder$country <- factor(gapminder$country)

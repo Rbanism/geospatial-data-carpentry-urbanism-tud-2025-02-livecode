@@ -194,7 +194,7 @@ st_crs(boundary_Delft)$epsg
 # Challenge
 
 str(municipal_boundary_NL)
-unique(municipal_boundary_NL)
+unique(municipal_boundary_NL$ligtInPr_1)
 
 boundary_ZH <- municipal_boundary_NL %>%
   filter(ligtInPr_1 == "Zuid-Holland")

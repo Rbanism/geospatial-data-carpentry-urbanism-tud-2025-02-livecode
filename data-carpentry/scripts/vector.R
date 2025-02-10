@@ -82,6 +82,6 @@ nrow(motorway_Delft)
 ggplot(data = motorway_Delft) +
   geom_sf(size = 1.5) +
   ggtitle("Mobility network of Delft", subtitle = "Motorways") +
-  coord_sf(datum = )
+  coord_sf(datum = st_crs(28992))
 
 st_geometry_type(motorway_Delft_summary)

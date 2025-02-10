@@ -8,3 +8,5 @@ st_geometry_type(delft_boundary)
 st_crs(delft_boundary)
 st_crs(delft_boundary)$epsg
 st_crs(delft_boundary)$Name
+
+st_

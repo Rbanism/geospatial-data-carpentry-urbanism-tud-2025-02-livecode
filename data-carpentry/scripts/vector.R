@@ -180,4 +180,4 @@ ggplot() +
   coord_sf(datum = st_crs(28992))
 
 plot(country_boundary_NL)
-plot()
+plot(municipal_boundary_NL)

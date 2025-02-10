@@ -201,7 +201,7 @@ boundary_ZH <- municipal_boundary_NL %>%
 
 ggplot() +
   geom_sf(data = boundary_ZH, 
-          aes(color ="color"), show.legend = "line") +
+          aes(color = "color"), show.legend = "line") +
   scale_color_manual(name = "", labels = "Municipal Boundaries in South Holland", 
                      values = c("color" = "gray18")) +
   geom_sf(data = boundary_Delft, aes(shape = "shape"), 

@@ -188,4 +188,4 @@ ggplot() +
           color = "purple",
           fill = "purple")
 
-st_crs(municipal_boundary_NL)
+st_crs(municipal_boundary_NL)$epsg

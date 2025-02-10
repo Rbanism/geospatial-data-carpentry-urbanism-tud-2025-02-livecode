@@ -18,5 +18,6 @@ st_crs(delft_boundary)$units_gdal
 
 ggplot(data = delft_boundary) +
   geom_sf(color = "darkblue", fill = "cyan1") +
-  labs(title = "")
+  labs(title = "Delft Administrative Boundary") +
+  
 

@@ -216,7 +216,7 @@ ggplot() +
   theme(legend.background = element_rect(color = NA)) +
   coord_sf(datum = st_crs(28992))
 
-st_write
+st_write(point)
 
 
 

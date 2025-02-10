@@ -98,4 +98,4 @@ head(gapminder, 10)
 
 summary(gapminder)
 
-
+gapminder$

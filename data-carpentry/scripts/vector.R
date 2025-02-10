@@ -83,3 +83,5 @@ ggplot(data = motorway_Delft) +
   geom_sf(size = 1.5) +
   ggtitle("Mobility network of Delft", subtitle = "Motorways") +
   coord_sf()
+
+st_

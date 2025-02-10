@@ -131,11 +131,11 @@ ggplot() +
           color = "lightgrey") +
   geom_sf(data = lines_Delft_selection,
           aes(color = highway)) +
-  scale_color_manual(values = road_colors,
-                     name = "Road Type") +
   geom_sf(data = point_Delft,
           aes(fill = leisure),
           shape = 21) +
+  scale_color_manual(values = road_colors,
+                     name = "Road Type") +
   scale_fill_manual(values = leisure_colors,
                     name = "Leisure Location") +
   labs(title = "Mobility network and leisure in Delft") +

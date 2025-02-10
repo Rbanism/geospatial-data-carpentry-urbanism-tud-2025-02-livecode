@@ -126,6 +126,10 @@ leisure_colors <- rainbow(15)
 leisure_colors
 
 ggplot() +
+  scale_color_manual(values = road_colors,
+                     name = "Road Type") +
+  scale_fill_manual(values = leisure_colors,
+                    name = "Leisure Location") +
   geom_sf(data = delft_boundary,
           fill = "lightgrey",
           color = "lightgrey") +
@@ -134,9 +138,5 @@ ggplot() +
   geom_sf(data = point_Delft,
           aes(fill = leisure),
           shape = 21) +
-  scale_color_manual(values = road_colors,
-                     name = "Road Type") +
-  scale_fill_manual(values = leisure_colors,
-                    name = "Leisure Location") +
   labs(title = "Mobility network and leisure in Delft") +
   coord_sf(datum = st_crs(28992))

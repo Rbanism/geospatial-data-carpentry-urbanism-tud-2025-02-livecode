@@ -116,5 +116,5 @@ ggplot() +
 
 point_Delft  
 
-point
+point_Delft <- point_Delft %>%
 

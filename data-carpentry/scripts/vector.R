@@ -149,7 +149,8 @@ leisure_locations_selection <- leisure_locations_selection %>%
 blue_orange <- c("cornflowerblue", "darkorange")
 
 ggplot() + 
-  geom_sf(data = lines_Delft_selection, aes(color = highway)) + 
+  geom_sf(data = lines_Delft_selection,
+          aes(color = highway)) + 
   geom_sf(data = leisure_locations_selection,
           aes(fill = leisure, shape = leisure)) + 
   scale_shape_manual(name = "Leisure Type", values = c(21, 22)) +

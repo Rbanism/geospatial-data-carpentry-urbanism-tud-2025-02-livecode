@@ -100,8 +100,7 @@ ggplot(data = lines_Delft_selection) +
   geom_sf(aes(color = highway)) +
   scale_color_manual(values = road_colors) +
   labs(title = "Mobility network in Delft",
-       subtitle = "Main roads & cicyleways",
-       color = "Road Type") +
+       subtitle = "Main roads & cicyleways") +
   coord_sf(datum = st_crs(28992))
 
 

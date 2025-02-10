@@ -102,3 +102,4 @@ gapminder$country
 
 head(gapminder$country)
 
+gapminder$

@@ -53,4 +53,4 @@ mixed_vector2
 str(mixed_vector2)
 
 
-with_na <- c( 1, 4, )
+with_na <- c( 1, 4, NA, 6, 5, NA)

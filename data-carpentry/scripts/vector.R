@@ -174,5 +174,6 @@ ggplot() +
   geom_sf(data = country_boundary_NL,
           color = "gray18",
           linewidth = 2) +
-  geom_sf(data = municipal_boundary_NL)
+  geom_sf(data = municipal_boundary_NL,
+          color = "gray40") +
 

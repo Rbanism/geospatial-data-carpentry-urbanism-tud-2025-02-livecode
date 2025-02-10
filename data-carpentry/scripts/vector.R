@@ -187,3 +187,5 @@ ggplot() +
   geom_sf(data = boundary_Delft,
           color = "purple",
           fill = "purple")
+
+st_crs(municipal_boundary_NL)

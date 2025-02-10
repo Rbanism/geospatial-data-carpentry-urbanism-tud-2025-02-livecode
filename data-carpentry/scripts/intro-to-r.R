@@ -10,4 +10,4 @@ here("data")
 
 # Assign value 
 
-x <- 
+x <- 40

@@ -37,4 +37,4 @@ character_vector <- c("Delft", "Amsterdam", "'s Gravenhage", '"Big Apple"')
 character_vector
 
 
-str(character)
+str(character_vector)

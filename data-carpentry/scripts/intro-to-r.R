@@ -11,3 +11,4 @@ here("data")
 # Assign value 
 
 x <- 40
+x

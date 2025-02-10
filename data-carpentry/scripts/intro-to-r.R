@@ -94,4 +94,4 @@ str(gapminder)
 
 head(gapminder)
 
-head(gapminder)
+head(gapminder, 10)

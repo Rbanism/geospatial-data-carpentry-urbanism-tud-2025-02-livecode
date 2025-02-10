@@ -94,4 +94,4 @@ lines_Delft_selection <- lines_Delft %>%
 
 str(lines_Delft_selection)
 
-road_colors <- c("blue", "green", "navy")
+road_colors <- c("blue", "green", "navy", "purple")

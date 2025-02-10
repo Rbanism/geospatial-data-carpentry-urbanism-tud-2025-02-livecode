@@ -48,3 +48,4 @@ logical_vector
 str(logical_vector)
 
 mixed_vector2 <- c(numeric_vector, logical_vector)
+mixed_vector2

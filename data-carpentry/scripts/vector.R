@@ -136,4 +136,5 @@ ggplot() +
   scale_color_manual(values = road_colors,
                      name = "Road Type") +
   scale_fill_manual(values = leisure_colors,
-                    name = "Leisure Location")
+                    name = "Leisure Location") +
+  labs()

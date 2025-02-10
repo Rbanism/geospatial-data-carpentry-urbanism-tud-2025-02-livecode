@@ -39,4 +39,4 @@ character_vector
 
 str(character_vector)
 
-mixed_vector <- c(numeric_vector, character_vector))
+mixed_vector <- c(numeric_vector, character_vector)

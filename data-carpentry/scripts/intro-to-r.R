@@ -110,6 +110,6 @@ nrow(gapminder)
 
 ncol(gapminder)
 
-library()
+library(tidyverse)
 
 year_country_gdp <- select(gapminder, country, year, gdp)

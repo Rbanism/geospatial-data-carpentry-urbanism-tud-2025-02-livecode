@@ -117,5 +117,5 @@ ggplot() +
 point_Delft  
 
 point_Delft <- point_Delft %>%
-  mutate()
+  mutate(leisure)
 

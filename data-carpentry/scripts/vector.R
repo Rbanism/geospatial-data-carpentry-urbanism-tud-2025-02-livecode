@@ -164,5 +164,6 @@ ggplot() +
 municipal_boundary_NL <- st_read(here("data", "nl-gemeenten.shp"))
 
 ggplot() +
-  geom_sf(data = municipal_boundary_NL)
+  geom_sf(data = municipal_boundary_NL) +
+  labs()
 

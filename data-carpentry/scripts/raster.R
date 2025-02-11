@@ -120,3 +120,4 @@ DTM_hill_EPSG28992_TUD <- project(DTM_hill_TUD,
                                   res = res(DTM_TUD))
 res(DTM_hill_EPSG28992_TUD)
 
+

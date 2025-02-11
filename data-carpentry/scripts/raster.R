@@ -9,4 +9,4 @@ DSM_TUD
 
 summary(DSM_TUD)
 
-summary()
+summary(values(DSM_TUD))

@@ -108,4 +108,4 @@ DTM_hill_EPSG28992_TUD <- project(DTM_hill_TUD,
 
 crs(DTM_hill_EPSG28992_TUD, parse = TRUE)
 
-
+ext()

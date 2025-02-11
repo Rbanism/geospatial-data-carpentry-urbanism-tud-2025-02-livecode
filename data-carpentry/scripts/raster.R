@@ -149,3 +149,5 @@ geom_histogram(aes(`tud-dsm-5m`))
 custom_bins <- c(-5, 0, 10, 20, 30, 100)
 CHM_TUD_df <- CHM_TUD_df %>%
 mutate(canopy_discrete = cut(`tud-dsm-5m`, breaks = custom_bins))
+ggplot() +
+  geom_raster(data = CHM_TUD_df, aes())

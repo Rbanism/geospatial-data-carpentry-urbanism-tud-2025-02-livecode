@@ -97,4 +97,5 @@ filter(start_date <= old)
 nrow(old_buildings)
 
 ggplot(data = old_buildings) +
-geom_sf(colour = "red")
+geom_sf(colour = "red") +
+coord_sf(datum = st_crs())

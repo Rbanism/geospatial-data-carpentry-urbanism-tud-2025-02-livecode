@@ -1,4 +1,4 @@
 library(tidyverse)
 library(terra)
 
-describe("data/")
+describe("data/tud-dsm-5m")

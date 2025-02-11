@@ -70,3 +70,4 @@ coord_equal()
 
 DTM_TUD <- rast("data/tud-dtm-5m.tif")
 DTM_hill_TUD <- rast("data/tud-dtm-5m-hill-WGS84.tif")
+

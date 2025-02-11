@@ -69,4 +69,4 @@ geom_raster(data = DSM_TUD_df, aes(x = x, y = y, fill = fct_elevation_cb)) +
 coord_equal()
 
 DTM_TUD <- rast("data/tud-dtm-5m.tif")
-DTM
+DTM_TUD <- rast("data/tud-dtm-5m-hill-")

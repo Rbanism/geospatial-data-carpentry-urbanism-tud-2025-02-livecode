@@ -11,4 +11,5 @@ bb <- getbb("Brielle, NL")
 bb
 
 x <- opq(bbox = bb) %>%
-add_osm_feature(key = "building")
+  add_osm_feature(key = "building") %>%
+

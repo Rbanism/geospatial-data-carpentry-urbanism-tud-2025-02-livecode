@@ -31,3 +31,4 @@ max(values(DSM_TUD))
 
 nlyr(DSM_TUD)
 
+describe()

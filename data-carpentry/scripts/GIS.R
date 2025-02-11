@@ -75,3 +75,12 @@ leaflet(data = buildings2) %>%
   addTiles() %>%
   addPolygons(fillColor = ~colorQuantile("YlGnBu",
                                          -build_date)(build_date))
+
+leaflet(buildings2) %>%
+  addProviderTiles(providers$CartoDB.Positron) %>%
+  addPolygons(color = "#444444", weight = 0.1, smoothFactor = 0.5,
+              opacity = 0.2, fillOpacity = 0.8,
+              fillColor = ~colorQuantile("YlGnBu", -build_date)(-build_date),
+              highlightOptions = highlightOptions(color = "white", weight = 2,
+                                                  bringToFront = TRUE))
+

@@ -172,5 +172,5 @@ ggplot() +
                   alpha = `tudlib-rgb_1`)) +
   coord_equal()
 
-RGB_stack_TUD <-rast()
+RGB_stack_TUD <-rast("data/tudlib-rgb.tif")
 

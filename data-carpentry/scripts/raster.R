@@ -139,4 +139,4 @@ ggplot() +
   geom_raster(data = CHM_TUD_df,
               aes(x = x, y = y,
                   fill = `tud-dsm-5m`)) +
-  scal
+  scale_fill_grad

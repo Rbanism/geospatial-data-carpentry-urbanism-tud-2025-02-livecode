@@ -156,4 +156,4 @@ scale_fill_manual(values = terrain.colors(5)) +
   coord_equal()
 
 terra::writeRaster(CHM_TUD,
-                   "data_output/")
+                   "data_output/CHM_TUD.tiff")

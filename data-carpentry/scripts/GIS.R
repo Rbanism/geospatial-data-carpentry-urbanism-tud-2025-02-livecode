@@ -153,4 +153,4 @@ nrow(single_old_buffer)
 single_old_buffer
 
 single_buffer <- single_old_buffer %>%
-  mutate(n_buildings)
+  mutate(n_buildings = centroid_)

@@ -6,3 +6,4 @@ library(osmdata)
 bb <- getbb("Brielle")
 bb
 
+bb <-

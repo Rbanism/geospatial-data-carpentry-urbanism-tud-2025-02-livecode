@@ -139,4 +139,5 @@ ggplot() +
   geom_raster(data = CHM_TUD_df,
               aes(x = x, y = y,
                   fill = `tud-dsm-5m`)) +
-  scale_fill_gradientn(name = "Canopy Height", )
+  scale_fill_gradientn(name = "Canopy Height", colors = terrain.colors(10)) +
+  coord_equal()

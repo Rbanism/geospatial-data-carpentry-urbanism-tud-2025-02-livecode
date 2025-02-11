@@ -77,4 +77,5 @@ DTM_hill_TUD_df <- as.data.frame(DTM_hill_TUD, xy = TRUE)
 gpplot() +
 geom_raster(data = DTM_TUD_df,
             aes(x = x, y = y,
-                fill = `tud-dtm-5m`))
+                fill = `tud-dtm-5m`)) +
+

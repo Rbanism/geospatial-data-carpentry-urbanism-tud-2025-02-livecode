@@ -23,4 +23,4 @@ crs(DSM_TUD, proj = TRUE)
 
 minmax(DSM_TUD)
 
-DSM_TUD <-
+DSM_TUD <- set

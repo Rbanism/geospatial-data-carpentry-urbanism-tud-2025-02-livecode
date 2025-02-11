@@ -93,4 +93,5 @@ coord_equal()
 
 ggplot() +
 geom_raster(data = DTM_hill_TUD_df,
-            aes())
+            aes(x = x, y = y,
+                alpha = `tud`))

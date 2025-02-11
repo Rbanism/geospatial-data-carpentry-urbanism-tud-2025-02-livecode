@@ -133,3 +133,4 @@ scale_fill_gradientn(name = "Elevation", colors = terrain.colors(10)) +
   coord_equal()
 
 CHM_TUD <- DSM_TUD - DTM_TUD
+CHM_TUD_df <- as.data.frame(CHM_TUD)

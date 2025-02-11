@@ -85,6 +85,6 @@ leaflet(buildings2) %>%
                                                   bringToFront = TRUE))
 
 
-
+# GIS
 
 

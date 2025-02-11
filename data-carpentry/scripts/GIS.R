@@ -34,5 +34,28 @@ ggplot(data = buildings) +
   coord_sf(datum = st_crs(28992))
 
 # Make the same map for Naarden instead of Brielle.
-# Define bounding box
+# Change the name and run all the lines one by one
+# OR
+#create a function
+
+extract_buildings <- function(cityname, year=1900){
+  bb <- getbb(cityname)
+
+  x <- opq(bbox = bb) %>%
+    add_osm_feature(key = 'building') %>%
+    osmdata_sf()
+
+  buildings <- x$osm_polygons %>%
+    st_transform(.,crs=28992)
+
+  start_date <- as.numeric(buildings$start_date)
+
+  buildings$build_date <- if_else(start_date < year, year, start_date)
+  ggplot(data = buildings) +
+    geom_sf(aes(fill = build_date, colour=build_date))  +
+    scale_fill_viridis_c(option = "viridis")+
+    scale_colour_viridis_c(option = "viridis") +
+    ggtitle(paste0("Old buildings in ",cityname)) +
+    coord_sf(datum = st_crs(28992))
+}
 

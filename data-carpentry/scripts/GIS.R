@@ -121,4 +121,4 @@ single_old_buffer <- st_union(buffer_old_buildings) %>%
 
 str(single_old_buffer)
 
-
+single_old_buffer <-

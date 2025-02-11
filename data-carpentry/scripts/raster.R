@@ -88,4 +88,4 @@ ggplot() +
   geom_raster(data = DTM_TUD_df,
               aes(x = x, y = y,
                   fill = `tud-dtm-5m`)) +
-  scale_fill_gradientn(name =)
+  scale_fill_gradientn(name = "Elevation", colors = terrain.colors(10))

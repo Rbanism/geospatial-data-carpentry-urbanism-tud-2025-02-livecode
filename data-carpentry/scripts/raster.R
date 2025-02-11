@@ -164,6 +164,6 @@ terra::writeRaster(CHM_TUD,
 describe("data/tudlib-rgb.tif")
 
 RGB_band1_TUD <- rast("data/tudlib-rgb.tif", lyrs = 1)
-
+RGB_band1_TUD_df <-
 
 

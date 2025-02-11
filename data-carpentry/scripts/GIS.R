@@ -94,4 +94,6 @@ buildings$start_date <- as.numeric(buildings$start_date)
 old_buildings <- buildings %>%
 filter(start_date <= old)
 
+nrow(old_buildings)
+
 

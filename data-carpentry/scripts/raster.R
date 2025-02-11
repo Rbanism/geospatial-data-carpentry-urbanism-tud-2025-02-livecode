@@ -103,4 +103,4 @@ geom_raster(data = DTM_hill_TUD_df,
 crs(DTM_TUD, parse = TRUE)
 crs(DTM_TUD)
 
-DTM_hill_EPSG
+DTM_hill_EPSG28992_TUD <- project()

@@ -85,6 +85,9 @@ leaflet(buildings2) %>%
                                                   bringToFront = TRUE))
 
 
-# GIS
+# GIS: conservation zone
+
+old <- 1800
+
 
 

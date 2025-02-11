@@ -73,4 +73,4 @@ buildings2 <- buildings %>%
 
 leaflet(data = buildings2) %>%
   addTiles() %>%
-  addPolygons(fill)
+  addPolygons(fillColor = build_date)

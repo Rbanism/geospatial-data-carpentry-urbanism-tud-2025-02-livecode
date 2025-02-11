@@ -116,4 +116,5 @@ res(DTM_hill_EPSG28992_TUD)
 res(DTM_TUD)
 
 DTM_hill_EPSG28992_TUD <- project(DTM_hill_TUD,
-                                  crs(DTM_TUD))
+                                  crs(DTM_TUD),
+                                  res = res())

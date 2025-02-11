@@ -168,5 +168,5 @@ single_buffer
 ggplot() +
 geom_sf(data = buildings) +
 geom_sf(data = single_buffer,
-        aes(fill = old_))
+        aes(fill = old_buildings_per_km2), )
 

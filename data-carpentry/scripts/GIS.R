@@ -149,4 +149,4 @@ centroid_by_buffer <- centroids_buffer %>%
 
 head(centroid_by_buffer)
 
-
+nrow(single_old_buffer)

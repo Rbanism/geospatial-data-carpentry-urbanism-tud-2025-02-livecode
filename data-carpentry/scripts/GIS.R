@@ -15,3 +15,8 @@ x <- opq(bbox = bb) %>%
   osmdata_sf()
 
 str(x$osm_polygons)
+
+# Mapping buildings by date
+
+
+

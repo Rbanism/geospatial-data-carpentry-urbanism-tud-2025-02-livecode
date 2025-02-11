@@ -156,3 +156,7 @@ single_buffer <- single_old_buffer %>%
   mutate(n_buildings = centroid_by_buffer$n)
 
 single_buffer
+
+
+
+

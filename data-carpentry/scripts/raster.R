@@ -113,4 +113,5 @@ ext(DTM_TUD)
 ext(DTM_hill_TUD)
 
 res(DTM_hill_EPSG28992_TUD)
-res(DTM_)
+res(DTM_TUD)
+

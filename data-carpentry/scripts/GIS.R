@@ -137,5 +137,5 @@ ggplot() +
   coord_sf(datum = st_crs(28992))
 
 # Intersection
-
+centroids_buffer <-
 

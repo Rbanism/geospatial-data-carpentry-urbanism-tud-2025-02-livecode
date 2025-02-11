@@ -23,3 +23,4 @@ buildings <- x$osm_polygons %>%
 
 
 
+

@@ -10,4 +10,4 @@ bb
 bb <- getbb("Brielle, NL")
 bb
 
-x <-
+x <- opq(bb)

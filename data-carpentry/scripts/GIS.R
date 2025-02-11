@@ -67,4 +67,4 @@ replication_function("Naarden")
 
 # Challenge
 
-
+leaflet(data)

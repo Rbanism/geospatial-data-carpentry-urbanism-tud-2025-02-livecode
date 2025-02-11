@@ -20,3 +20,4 @@ scale_fill_viridis_c(option = "turbo") +
   coord_equal()
 
 crs(DSM_TUD, proj = TRUE)
+

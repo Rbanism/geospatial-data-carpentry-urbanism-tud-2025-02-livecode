@@ -187,4 +187,4 @@ geom_raster(data = RGB_stack_TUD_df,
   coord_equal()
 
 plotRGB(RGB_stack_TUD,
-        r )
+        r = 1, g = 2, b = 3)

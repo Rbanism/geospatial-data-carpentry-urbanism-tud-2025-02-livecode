@@ -146,3 +146,4 @@ str(centroids_buffer)
 centroid_by_buffer <- centroids_buffer %>%
   group_by(ID) %>%
   summarise(n = sum(n))
+

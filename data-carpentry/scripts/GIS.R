@@ -30,5 +30,6 @@ buildings$build_date <-if_else(start_date < 1900,
 ggplot(data = buildings) +
   geom_sf(aes(fill = build_date, colour = build_date)) +
   scale_fill_viridis_c(option = "viridis") +
-  scale_colour_viridis_c()
+  scale_colour_viridis_c(option = "viridis") +
+
 

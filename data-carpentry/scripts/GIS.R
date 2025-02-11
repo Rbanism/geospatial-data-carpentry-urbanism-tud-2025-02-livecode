@@ -126,8 +126,8 @@ single_old_buffer <- single_old_buffer %>%
   st_transform(., crs=28992)
 
 # Centroid
-sf::sf_use_s2(FALSE)
+sf::sf_use_s2(TRUE)
 
-centroid_old
+centroids_old <-
 
 

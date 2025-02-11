@@ -132,5 +132,5 @@ centroids_old <- st_centroid(old_buildings) %>%
   st_transform(., crs = 28992)
 
 ggplot() +
-  geom_
+  geom_sf(data = )
 

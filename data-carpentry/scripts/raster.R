@@ -155,4 +155,4 @@ ggplot() +
 scale_fill_manual(values = terrain.colors(5)) +
   coord_equal()
 
-terra::write
+terra::writeRaster()

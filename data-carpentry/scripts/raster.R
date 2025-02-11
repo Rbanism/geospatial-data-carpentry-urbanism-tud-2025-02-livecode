@@ -58,4 +58,4 @@ geom_raster(data = DSM_TUD_df, aes(x = x, y = y, fill = fct_elevation_cb)) +
 my_col <- terrain.colors(3)
 
 ggplot() +
-geom_raster(data = TUD)
+geom_raster(data = DSM_TUD_df, aes())

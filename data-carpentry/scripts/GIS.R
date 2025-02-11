@@ -51,6 +51,7 @@ replication_function <- function(cityname, year=1900){
   start_date <- as.numeric(buildings$start_date)
 
   buildings$build_date <- if_else(start_date < year, year, start_date)
+
   ggplot(data = buildings) +
     geom_sf(aes(fill = build_date, colour=build_date))  +
     scale_fill_viridis_c(option = "viridis")+

@@ -68,5 +68,5 @@ geom_raster(data = DSM_TUD_df, aes(x = x, y = y, fill = fct_elevation_cb)) +
   theme(axis.title = element_blank()) +
 coord_equal()
 
-DTM_TUD <- rast(here("data-carpentry", "data", ""))
+DTM_TUD <- rast(data))
 

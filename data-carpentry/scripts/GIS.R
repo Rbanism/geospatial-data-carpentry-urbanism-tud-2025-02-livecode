@@ -103,6 +103,6 @@ coord_sf(datum = st_crs(28992))
 # Buffer
 distance <- 100 # in meters
 
-
+st_crs()
 
 

@@ -181,4 +181,6 @@ RGB_stack_TUD_df <- as.data.frame(RGB_stack_TUD, xy = TRUE)
 str(RGB_stack_TUD_df)
 
 ggplot() +
-geom_raster(data = RGB_stack_TUD_df)
+geom_raster(data = RGB_stack_TUD_df,
+            aes(x = x, y = y,
+                alpha = ``))

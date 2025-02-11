@@ -157,6 +157,7 @@ single_buffer <- single_old_buffer %>%
 
 single_buffer
 
-
+single_buffer$area <- st_area(single_buffer) %>%
+units
 
 

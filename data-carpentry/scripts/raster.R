@@ -183,4 +183,7 @@ str(RGB_stack_TUD_df)
 ggplot() +
 geom_raster(data = RGB_stack_TUD_df,
             aes(x = x, y = y,
-                alpha = `tudlib-rgb_2`))
+                alpha = `tudlib-rgb_2`)) +
+  coord_equal()
+
+

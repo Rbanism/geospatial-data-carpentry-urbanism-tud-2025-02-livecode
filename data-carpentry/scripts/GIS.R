@@ -19,7 +19,7 @@ str(x$osm_polygons)
 # Mapping buildings by date
 
 buildings <- x$osm_polygons %>%
-
+  st_transform(., crs=282)
 
 
 

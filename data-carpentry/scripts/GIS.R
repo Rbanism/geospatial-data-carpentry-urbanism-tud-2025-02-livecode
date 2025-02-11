@@ -87,7 +87,7 @@ leaflet(buildings2) %>%
 
 # GIS: conservation zone
 
-old <- 1800
+old <- 1939
 
 buildings$start_date <- as.numeric(buildings$start_date)
 
@@ -101,7 +101,7 @@ geom_sf(colour = "red") +
 coord_sf(datum = st_crs(28992))
 
 # Buffer
-distance <- 100 # in meters
+distance <- 10 # in meters
 
 # First we check that "old buildings" layer projection is in meters
 st_crs(old_buildings)

@@ -90,3 +90,4 @@ ggplot() +
                   fill = `tud-dtm-5m`)) +
   scale_fill_gradientn(name = "Elevation", colors = terrain.colors(10)) +
 coord_equal()
+

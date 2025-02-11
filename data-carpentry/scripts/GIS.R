@@ -24,3 +24,4 @@ buildings <- x$osm_polygons %>%
 str(buildings)
 
 
+

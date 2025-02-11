@@ -7,3 +7,4 @@ bb <- getbb("Brielle")
 bb
 
 bb <- getbb("Brielle, NL")
+bb

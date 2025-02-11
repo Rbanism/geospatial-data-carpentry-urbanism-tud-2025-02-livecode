@@ -168,5 +168,6 @@ single_buffer
 ggplot() +
 geom_sf(data = buildings) +
 geom_sf(data = single_buffer,
-        aes(fill = old_buildings_per_km2), )
+        aes(fill = old_buildings_per_km2), colour = NA) +
+scale_fill_viridis_c()
 

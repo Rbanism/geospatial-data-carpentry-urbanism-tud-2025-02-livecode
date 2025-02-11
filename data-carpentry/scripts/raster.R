@@ -101,3 +101,4 @@ geom_raster(data = DTM_hill_TUD_df,
   coord_equal()
 
 crs(DTM_TUD, parse = TRUE)
+crs(DTM_TUD)

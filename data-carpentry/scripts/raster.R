@@ -67,3 +67,6 @@ geom_raster(data = DSM_TUD_df, aes(x = x, y = y, fill = fct_elevation_cb)) +
   scale_fill_manual(values = my_col, name = "Elevation") +
   theme(axis.title = element_blank()) +
 coord_equal()
+
+
+

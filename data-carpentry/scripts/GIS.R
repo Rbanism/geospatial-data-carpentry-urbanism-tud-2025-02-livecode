@@ -101,6 +101,8 @@ geom_sf(colour = "red") +
 coord_sf(datum = st_crs(28992))
 
 # Buffer
-distance <-100
+distance <- 100 # in meters
+
+
 
 

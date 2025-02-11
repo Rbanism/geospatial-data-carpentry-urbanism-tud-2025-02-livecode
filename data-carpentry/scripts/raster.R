@@ -158,4 +158,4 @@ scale_fill_manual(values = terrain.colors(5)) +
 terra::writeRaster(CHM_TUD,
                    "data_output/CHM_TUD.tiff",
                    filetype = "GTiff",
-                   )
+                   overwrite = TRUE)

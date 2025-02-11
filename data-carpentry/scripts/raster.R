@@ -177,4 +177,5 @@ RGB_stack_TUD
 
 RGB_stack_TUD[[2]]
 
-RGB_stack_TUD_df <- as.data.frame(RGB_stack_TUD
+RGB_stack_TUD_df <- as.data.frame(RGB_stack_TUD, xy = TRUE)
+

@@ -8,3 +8,4 @@ DSM_TUD <- rast(here("data-carpentry","data","tud-dsm-5m.tif"))
 DSM_TUD
 
 summary(DSM_TUD)
+

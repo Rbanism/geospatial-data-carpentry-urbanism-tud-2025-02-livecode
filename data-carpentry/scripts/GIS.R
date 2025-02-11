@@ -148,3 +148,4 @@ centroid_by_buffer <- centroids_buffer %>%
   summarise(n = sum(n))
 
 head(centroid_by_buffer)
+

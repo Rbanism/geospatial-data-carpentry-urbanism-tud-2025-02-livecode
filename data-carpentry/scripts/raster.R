@@ -1,7 +1,7 @@
 library(tidyverse)
 library(terra)
 library(here)
-
+ 
 describe("data/tud-dsm-5m.tif")
 
 DSM_TUD <- rast("data/tud-dsm-5m.tif")

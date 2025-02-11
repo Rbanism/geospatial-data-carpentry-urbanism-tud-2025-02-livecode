@@ -103,7 +103,9 @@ coord_sf(datum = st_crs(28992))
 # Buffer
 distance <- 100 # in meters
 
-# fIRST
+# First we check that "old buildings" layer projection is in meters
 st_crs(old_buildings)
+
+
 
 

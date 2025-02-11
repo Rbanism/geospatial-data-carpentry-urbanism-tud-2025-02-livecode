@@ -46,7 +46,7 @@ DSM_TUD_df <- DSM_TUD_df %>%
 
 levels(DSM_TUD_df$fct_elevation_cb)
 
-
+head(DSM_TUD_df)
 
 ggplot() +
 

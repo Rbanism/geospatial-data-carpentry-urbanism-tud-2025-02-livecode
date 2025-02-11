@@ -64,3 +64,7 @@ replication_function <- function(cityname, year=1900){
 replication_function("Brielle, NL")
 replication_function("Naarden")
 
+
+# Challenge
+
+

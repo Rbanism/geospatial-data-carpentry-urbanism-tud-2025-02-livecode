@@ -24,5 +24,7 @@ buildings <- x$osm_polygons %>%
 str(buildings)
 
 start_date <-as.numeric(buildings$start_date)
-buildings$build_date <-if_else(start_date < 1900, 1900, start_date)
+buildings$build_date <-if_else(start_date < 1900,
+                               1900, start_date)
+
 

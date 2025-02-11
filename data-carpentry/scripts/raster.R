@@ -161,6 +161,6 @@ terra::writeRaster(CHM_TUD,
                    overwrite = TRUE)
 
 
-describe("data/tud")
+describe("data/tudlib-rgb.tif")
 
 

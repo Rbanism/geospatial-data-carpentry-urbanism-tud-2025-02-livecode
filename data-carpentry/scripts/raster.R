@@ -137,4 +137,5 @@ CHM_TUD_df <- as.data.frame(CHM_TUD, xy = TRUE)
 
 ggplot() +
   geom_raster(data = CHM_TUD_df,
-              aes())
+              aes(x = x, y = y,
+                  fill = ))

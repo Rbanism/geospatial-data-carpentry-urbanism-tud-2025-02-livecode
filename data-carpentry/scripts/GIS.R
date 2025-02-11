@@ -25,3 +25,4 @@ str(buildings)
 
 start_date <-as.numeric(buildings$start_date)
 
+

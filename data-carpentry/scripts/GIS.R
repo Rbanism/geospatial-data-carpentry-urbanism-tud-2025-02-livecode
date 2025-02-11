@@ -142,3 +142,5 @@ centroids_buffer <-
   mutate(n = 1)
 
 str(centroids_buffer)
+
+

@@ -141,4 +141,4 @@ centroids_buffer <-
   st_intersection(centroids_old, single_old_buffer) %>%
   mutate(n = 1)
 
-nrow(centroi)
+str(centroids_buffer)

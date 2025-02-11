@@ -92,4 +92,5 @@ ggplot() +
 coord_equal()
 
 ggplot() +
-
+geom_raster(data = DTM_hill_TUD_df,
+            aes())

@@ -108,6 +108,6 @@ st_crs(old_buildings)
 
 # Create the buffers
 buffer_old_buildings <- st_buffer(x = old_buildings,
-                                  dist = )
+                                  dist = distance)
 
 

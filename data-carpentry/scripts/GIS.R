@@ -110,6 +110,6 @@ st_crs(old_buildings)
 buffer_old_buildings <- st_buffer(x = old_buildings,
                                   dist = distance)
 
-
+ggplot(data = )
 
 

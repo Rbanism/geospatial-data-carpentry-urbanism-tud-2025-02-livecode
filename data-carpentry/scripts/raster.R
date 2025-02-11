@@ -155,4 +155,5 @@ ggplot() +
 scale_fill_manual(values = terrain.colors(5)) +
   coord_equal()
 
-terra::writeRaster()
+terra::writeRaster(CHM_TUD,
+                   "fig")

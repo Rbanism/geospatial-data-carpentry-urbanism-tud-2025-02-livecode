@@ -6,6 +6,8 @@ library(osmdata)
 bb <- getbb("Brielle")
 bb
 
-# disambiguate
+# disambiguate names
 bb <- getbb("Brielle, NL")
 bb
+
+

@@ -31,5 +31,5 @@ ggplot(data = buildings) +
   geom_sf(aes(fill = build_date, colour = build_date)) +
   scale_fill_viridis_c(option = "viridis") +
   scale_colour_viridis_c(option = "viridis") +
-coord_sf()
+  coord_sf(datum = )
 

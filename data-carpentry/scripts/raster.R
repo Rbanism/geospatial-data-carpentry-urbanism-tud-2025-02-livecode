@@ -52,4 +52,4 @@ ggplot() +
 geom_bar(data = DSM_TUD_df, aes(fct_elevation_cb))
 
 ggplot() +
-geom_raster()
+geom_raster(data = DSM_TUD_df, aes())

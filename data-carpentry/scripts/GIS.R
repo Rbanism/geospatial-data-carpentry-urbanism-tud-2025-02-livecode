@@ -91,5 +91,5 @@ old <- 1800
 
 buildings$start_date <- as.numeric(buildings$start_date)
 
-
+old_buildings <- buildings
 

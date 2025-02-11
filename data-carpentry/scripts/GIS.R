@@ -158,6 +158,6 @@ single_buffer <- single_old_buffer %>%
 single_buffer
 
 single_buffer$area <- st_area(single_buffer) %>%
-units::set_units(., )
+units::set_units(., km^2)
 
 

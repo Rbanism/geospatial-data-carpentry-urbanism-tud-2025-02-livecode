@@ -174,3 +174,5 @@ ggplot() +
 
 RGB_stack_TUD <-rast("data/tudlib-rgb.tif")
 RGB_stack_TUD
+
+

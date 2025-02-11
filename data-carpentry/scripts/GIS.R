@@ -165,3 +165,6 @@ single_buffer$old_buildings_per_km2 <-
 
 single_buffer
 
+ggplot() +
+
+

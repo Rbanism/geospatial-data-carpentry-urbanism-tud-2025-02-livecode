@@ -123,4 +123,6 @@ res(DTM_hill_EPSG28992_TUD)
 DTM_hill_TUD_2_df <- as.data.frame(DTM_hill_EPSG28992_TUD, xy = TRUE)
 
 ggplot() +
-geom_raster(data = DTM_TUD_df)
+geom_raster(data = DTM_TUD_df,
+            aes(x = x, y = y,
+                fill = ))

@@ -163,4 +163,5 @@ units::set_units(., km^2)
 single_buffer$old_buildings_per_km2 <-
   as.numeric(single_buffer$n_buildings / single_buffer$area)
 
+single_buffer
 

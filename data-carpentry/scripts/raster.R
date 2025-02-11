@@ -18,3 +18,4 @@ ggplot() +
 geom_raster(data = DSM_TUD_df, aes(x = x, y = y, fill = `tud-dsm-5m`)) +
 scale_fill_viridis_c(option = "turbo") +
   coord_equal()
+

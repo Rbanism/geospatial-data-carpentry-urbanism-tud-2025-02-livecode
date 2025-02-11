@@ -152,4 +152,4 @@ mutate(canopy_discrete = cut(`tud-dsm-5m`, breaks = custom_bins))
 ggplot() +
   geom_raster(data = CHM_TUD_df, aes(x =x, y = y,
                                      fill = canopy_discrete)) +
-
+scale_fill_manual

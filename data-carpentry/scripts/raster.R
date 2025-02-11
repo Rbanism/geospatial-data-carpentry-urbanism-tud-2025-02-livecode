@@ -63,4 +63,4 @@ scale_fill_manual(values = my_col, name = "Elevation") +
   coord_equal()
 
 ggplot() +
-geom_raster()
+geom_raster(data = DSM_TUD_df, aes())

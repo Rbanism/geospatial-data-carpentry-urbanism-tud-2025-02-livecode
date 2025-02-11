@@ -70,4 +70,5 @@ replication_function("Naarden")
 buildings2 <- buildings %>%
   st_transform(., st_crs(4326))
 
-leaflet(data = buildings2)
+leaflet(data = buildings2) %>%
+  addTil

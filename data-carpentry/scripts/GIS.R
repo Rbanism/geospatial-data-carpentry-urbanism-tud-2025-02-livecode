@@ -89,6 +89,6 @@ leaflet(buildings2) %>%
 
 old <- 1800
 
-
+buildings
 
 

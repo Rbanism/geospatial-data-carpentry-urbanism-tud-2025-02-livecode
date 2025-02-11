@@ -143,4 +143,4 @@ centroids_buffer <-
 
 str(centroids_buffer)
 
-centroid_by_buffer <-
+centroid_by_buffer <- centroids_buffer %>%

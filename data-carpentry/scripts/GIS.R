@@ -38,7 +38,7 @@ ggplot(data = buildings) +
 # OR
 #create a function
 
-extract_buildings <- function(cityname, year=1900){
+replication_function <- function(cityname, year=1900){
   bb <- getbb(cityname)
 
   x <- opq(bbox = bb) %>%

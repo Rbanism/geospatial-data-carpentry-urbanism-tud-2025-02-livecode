@@ -96,4 +96,4 @@ filter(start_date <= old)
 
 nrow(old_buildings)
 
-
+ggplot(data = old_buildings)

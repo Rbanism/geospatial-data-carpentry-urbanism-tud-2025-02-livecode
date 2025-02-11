@@ -83,3 +83,5 @@ geom_raster(data = DTM_hill_TUD_df,
                 alpha = `tud-dtm-5m-hill`)) +
 scale_fill_gradientn(name = "Elevation", colors = terrain.colors(10)) +
 coord_equal()
+
+

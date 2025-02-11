@@ -6,4 +6,4 @@ library(osmdata)
 bb <- getbb("Brielle")
 bb
 
-bb <-
+bb <- getbb("Brielle, NL")

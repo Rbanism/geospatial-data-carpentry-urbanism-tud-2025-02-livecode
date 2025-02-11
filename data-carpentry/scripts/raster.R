@@ -143,4 +143,4 @@ ggplot() +
   coord_equal()
 
 ggplot(CHM_TUD_df) +
-geom_histo
+geom_histogram(aes(`tud-`))

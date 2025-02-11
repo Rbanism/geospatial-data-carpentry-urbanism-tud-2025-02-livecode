@@ -106,6 +106,7 @@ distance <- 100 # in meters
 # First we check that "old buildings" layer projection is in meters
 st_crs(old_buildings)
 
+# Create the buffers
 buffer_old_buildings <-
 
 

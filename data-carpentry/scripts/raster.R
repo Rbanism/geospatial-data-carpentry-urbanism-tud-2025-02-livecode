@@ -121,3 +121,5 @@ DTM_hill_EPSG28992_TUD <- project(DTM_hill_TUD,
 res(DTM_hill_EPSG28992_TUD)
 
 DTM_hill_TUD_2_df <- as.data.frame(DTM_hill_EPSG28992_TUD, xy = TRUE)
+
+ggplot() +

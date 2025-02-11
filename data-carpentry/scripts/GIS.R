@@ -152,3 +152,4 @@ head(centroid_by_buffer)
 nrow(single_old_buffer)
 single_old_buffer
 
+

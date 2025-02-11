@@ -154,3 +154,5 @@ ggplot() +
                                      fill = canopy_discrete)) +
 scale_fill_manual(values = terrain.colors(5)) +
   coord_equal()
+
+

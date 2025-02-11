@@ -85,4 +85,6 @@ scale_fill_gradientn(name = "Elevation", colors = terrain.colors(10)) +
 coord_equal()
 
 ggplot() +
-  geom_raster(data = )
+  geom_raster(data = DTM_TUD_df,
+              aes(x = x, y = y,
+                  ))

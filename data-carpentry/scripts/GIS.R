@@ -122,4 +122,4 @@ single_old_buffer <- st_union(buffer_old_buildings) %>%
 str(single_old_buffer)
 
 single_old_buffer <- single_old_buffer %>%
-  mutate("ID" = as.factor(1:nrow()))
+  mutate("ID" = as.factor(1:nrow(single_old_buffer)))

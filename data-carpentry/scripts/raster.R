@@ -32,3 +32,6 @@ max(values(DSM_TUD))
 nlyr(DSM_TUD)
 
 describe(here("data-carpentry","data","tud-dsm-5m-hill.tif"))
+
+
+

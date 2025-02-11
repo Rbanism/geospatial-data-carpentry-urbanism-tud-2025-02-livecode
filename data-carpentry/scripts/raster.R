@@ -4,4 +4,4 @@ library(here)
 
 describe(here("data-carpentry","data","tud-dsm-5m.tif"))
 
-
+DSM_TUD <-

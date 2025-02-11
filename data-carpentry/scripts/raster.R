@@ -186,4 +186,4 @@ geom_raster(data = RGB_stack_TUD_df,
                 alpha = `tudlib-rgb_2`)) +
   coord_equal()
 
-
+plotRGB()

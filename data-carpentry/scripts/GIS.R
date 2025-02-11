@@ -3,4 +3,4 @@ library(sf)
 library(osmdata)
 
 # define a bounding box
-getbb()
+getbb("Brielle")

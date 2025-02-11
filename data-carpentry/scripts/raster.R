@@ -142,3 +142,4 @@ ggplot() +
   scale_fill_gradientn(name = "Canopy Height", colors = terrain.colors(10)) +
   coord_equal()
 
+ggplot(CHM_TUD_df)

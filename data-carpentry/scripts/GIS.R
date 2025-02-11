@@ -34,5 +34,5 @@ ggplot(data = buildings) +
   coord_sf(datum = st_crs(28992))
 
 # Make the same map for Naarden instead of Brielle.
-#
+# Define bounding box
 

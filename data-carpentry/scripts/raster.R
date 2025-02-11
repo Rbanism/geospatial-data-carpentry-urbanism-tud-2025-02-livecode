@@ -92,6 +92,7 @@ ggplot() +
 coord_equal()
 
 head(DTM_hill_TUD_df)
+str(DTM_hill_TUD_df)
 
 ggplot() +
 geom_raster(data = DTM_hill_TUD_df,

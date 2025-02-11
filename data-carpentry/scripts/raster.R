@@ -49,5 +49,5 @@ levels(DSM_TUD_df$fct_elevation_cb)
 head(DSM_TUD_df)
 
 ggplot() +
-geom_bar()
+geom_bar(data = DSM_TUD_df, aes(fct_elevation_cb))
 

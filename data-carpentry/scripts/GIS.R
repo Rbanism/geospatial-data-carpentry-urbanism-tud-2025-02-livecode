@@ -18,7 +18,7 @@ str(x$osm_polygons)
 
 # Mapping buildings by date
 
-buildings <-
+buildings <-x$osm_polygons
 
 
 

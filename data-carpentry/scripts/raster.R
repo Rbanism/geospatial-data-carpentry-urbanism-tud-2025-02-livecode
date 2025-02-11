@@ -73,3 +73,4 @@ DTM_hill_TUD <- rast("data/tud-dtm-5m-hill-WGS84.tif")
 
 DTM_TUD_df <- as.data.frame(DTM_TUD)
 DTM_hill_TUD_df <- as.data.frame(DTM_hill_TUD)
+

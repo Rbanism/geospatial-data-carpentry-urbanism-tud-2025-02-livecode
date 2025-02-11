@@ -59,7 +59,6 @@ replication_function <- function(cityname, year=1900){
     ggtitle(paste0("Old buildings in ",cityname)) +
     coord_sf(datum = st_crs(28992))
 
-
 }
 
 replication_function("Brielle, NL")

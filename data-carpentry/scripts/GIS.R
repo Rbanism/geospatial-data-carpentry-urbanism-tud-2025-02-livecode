@@ -68,6 +68,6 @@ replication_function("Naarden")
 # Challenge
 
 buildings2 <- buildings %>%
-st_transform(., crs())
+  st_transform(., st_crs(4326))
 
 leaflet(data = )

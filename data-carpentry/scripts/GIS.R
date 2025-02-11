@@ -84,3 +84,7 @@ leaflet(buildings2) %>%
               highlightOptions = highlightOptions(color = "white", weight = 2,
                                                   bringToFront = TRUE))
 
+
+
+
+

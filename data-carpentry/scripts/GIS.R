@@ -107,6 +107,6 @@ distance <- 100 # in meters
 st_crs(old_buildings)
 
 # Create the buffers
-buffer_old_buildings <-
+buffer_old_buildings <- st_
 
 

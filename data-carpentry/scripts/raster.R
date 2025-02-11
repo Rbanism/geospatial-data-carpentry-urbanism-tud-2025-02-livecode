@@ -110,4 +110,4 @@ crs(DTM_hill_EPSG28992_TUD, parse = TRUE)
 
 ext(DTM_hill_EPSG28992_TUD)
 ext(DTM_TUD)
-ext(DTM)
+ext(DTM_hill_TUD)

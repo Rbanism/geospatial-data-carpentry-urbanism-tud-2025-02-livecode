@@ -119,4 +119,4 @@ single_old_buffer <- st_union(buffer_old_buildings) %>%
   st_cast(to = "POLYGON") %>%
   st_as_sf()
 
-
+str(single_old_buffer)

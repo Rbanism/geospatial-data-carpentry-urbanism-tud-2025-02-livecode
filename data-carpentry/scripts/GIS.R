@@ -28,5 +28,5 @@ buildings$build_date <-if_else(start_date < 1900,
                                1900, start_date)
 
 ggplot(data = buildings) +
-  geom_sf(aes(fill = build_data, colour = build_data))
+  geom_sf(aes(fill = build_date, colour = build_date))
 

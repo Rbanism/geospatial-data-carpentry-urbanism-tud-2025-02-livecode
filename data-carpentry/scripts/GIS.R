@@ -167,5 +167,6 @@ single_buffer
 
 ggplot() +
 geom_sf(data = buildings) +
-geom_sf
+geom_sf(data = single_buffer,
+        aes())
 

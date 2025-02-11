@@ -128,6 +128,6 @@ single_old_buffer <- single_old_buffer %>%
 # Centroid
 sf::sf_use_s2(TRUE)
 
-centroids_old <-
+centroids_old <- st_centroid(old_building)
 
 

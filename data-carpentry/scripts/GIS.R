@@ -5,3 +5,4 @@ library(osmdata)
 # define a bounding box
 bb <- getbb("Brielle")
 bb
+

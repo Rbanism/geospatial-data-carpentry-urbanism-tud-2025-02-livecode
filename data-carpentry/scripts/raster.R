@@ -21,3 +21,4 @@ scale_fill_viridis_c(option = "turbo") +
 
 crs(DSM_TUD, proj = TRUE)
 
+min

@@ -26,4 +26,4 @@ minmax(DSM_TUD)
 DSM_TUD <- setMinMax(DSM_TUD)
 minmax(DSM_TUD)
 
-min
+min(values(DSM_TUD))

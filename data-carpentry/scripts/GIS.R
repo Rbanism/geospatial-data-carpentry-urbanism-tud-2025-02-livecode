@@ -103,6 +103,7 @@ coord_sf(datum = st_crs(28992))
 # Buffer
 distance <- 100 # in meters
 
+# fIRST
 st_crs(old_buildings)
 
 

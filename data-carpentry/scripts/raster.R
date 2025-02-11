@@ -169,5 +169,6 @@ RGB_band1_TUD_df <- as.data.frame(RGB_band1_TUD, xy = TRUE)
 ggplot() +
   geom_raster(data = RGB_band1_TUD_df,
               aes(x = x, y = y,
-                  alpha = `tudlib-rgb_1`)
+                  alpha = `tudlib-rgb_1`)) +
+  coord_equal()
 

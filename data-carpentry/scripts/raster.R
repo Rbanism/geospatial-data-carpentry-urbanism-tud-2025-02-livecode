@@ -104,4 +104,4 @@ crs(DTM_TUD, parse = TRUE)
 crs(DTM_TUD)
 
 DTM_hill_EPSG28992_TUD <- project(DTM_hill_TUD,
-                                  crs())
+                                  crs(DTM_TUD))
